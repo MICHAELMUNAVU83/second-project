@@ -13,8 +13,13 @@
         let kim =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
         let sum = Math.floor(kim);
         alert(sum);
-        let boy = document.getElementById('male').value
-        let girl = document.getElementById('female').value;
+
+        function man(){
+            let boy = document.getElementById('male').value
+        }
+        function woman(){
+            let girl = document.getElementById('female').value
+        }
 
 
         
@@ -23,7 +28,7 @@
          weekdays = ['Sunday','Monday','Tuesday', 'Wednesday','Thursday', 'Friday', 'Saturday'];
   
 
-         if ( sum == 2 && girl == 'female'){
+         if ( sum == 2 && $ == 'female'){
 
             alert(femaleNames[0])
             }
