@@ -14,12 +14,12 @@
         let sum = Math.floor(kim);
         alert(sum);
 
-        function man(){
+    
             let boy = document.getElementById('male').value
-        }
-        function woman(){
+        
+        
             let girl = document.getElementById('female').value
-        }
+        
 
 
         
@@ -28,11 +28,37 @@
          weekdays = ['Sunday','Monday','Tuesday', 'Wednesday','Thursday', 'Friday', 'Saturday'];
   
 
-         if ( sum == 2 && $ == 'female'){
+         if ( sum == 0 && boy == 'male'){
 
-            alert(femaleNames[0])
-            }
-            
+            alert(maleNames[0])
+            }else if(sum == 1 && boy == 'male' ){
+
+                alert(maleNames[1])
+             }
+             else if(sum == 2 && boy == 'male' ){
+
+                alert(maleNames[2])
+             } 
+             else if(sum == 3 && boy == 'male' ){
+
+                alert(maleNames[3])
+             }
+             else if(sum == 4 && boy == 'male' ){
+
+                alert(maleNames[4])
+             }
+             else if(sum == 5 && boy == 'male' ){
+
+                alert(maleNames[5])
+             } 
+             else if(sum == 6 && boy == 'male' ){
+
+                alert(maleNames[6])
+             }
+             else if(sum == 0 && girl == 'female' ){
+
+                alert(femaleNames[0])
+             }  
 
         
 
