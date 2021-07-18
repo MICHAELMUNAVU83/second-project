@@ -10,26 +10,44 @@
     
 
     <form >
+        <label for="year"> YEAR OF BIRTH</label>
 
-        <input type="number" id="year" name="name" value="year"> YEAR OF BIRTH
+        <input type="number" id="year" name="name" value="year"> 
         <br>
+        <label for="month">MONTH OF BIRTH</label>
 
-
-        <input type="number" id="month" name="name" value="month"  min="1" max="12"> MONTH OF BIRTH
+        <input type="number" id="month" name="name" value="month" min="1" max="12" required> 
         <br>
 
        
-
-        <input type="number" id="day"  name="name" value="day" min="1" max="31"> DAY OF BIRTH
+        <label for="day">DATE OF BIRTH</label>
+        <input type="number" id="day"  name="name" value="day" min="1" max="31" required> DAY OF BIRTH
 
 
         <h6>GENDER</h6>
-        <div></div>
+        <div>
+            <input type="radio" name="gender" onclick="man()"   id="male" value="male">male
 
-        <input type="radio" name="gender" onclick="man()"   id="male" value="male">male
-        <input type="radio"name="gender" id="female" onclick="woman()"   value="female">female
 
-        <input onclick="mwaka()" class="btn" type="checkbox">another
+        </div>
+
+        <div>
+
+            <input type="radio"name="gender" id="female" onclick="woman()"   value="female">female
+        </div>
+
+
+
+        
+        <div>
+
+
+            <input onclick="mwaka()" class="btn" type="checkbox">another
+
+
+        </div>
+
+        
 
         
 
