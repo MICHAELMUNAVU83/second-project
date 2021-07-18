@@ -38,69 +38,81 @@ function woman(){
         let weekdays = ['Sunday','Monday','Tuesday', 'Wednesday','Thursday', 'Friday', 'Saturday'];
   
         
-        alert(sum)
+      
 
 
         let gen = document.getElementById('resu').innerHTML;
         
         if(sum ==  0 && gen== "female"){
-           alert(femaleNames[0])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[0]))
+   
         }
         else if (sum == 1 && gen == "female") {
-           alert(femaleNames[1])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[1]))
+          
            
         }
         else if (sum ==  2 && gen == "female") {
-           document.getElementById('mama').innerHTML= (femaleNames[2])
-
+           document.getElementById('mama').innerHTML= ('Your name is ' + (femaleNames[2]))
          
-       
       }
       else if (sum == 3 && gen == "female") {
-         alert( 'Your Akhan name is  ' + femaleNames[3])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[3]))
+
+        
          
       }
      
       else if (sum == 4 && gen == "female") {
-         alert(femaleNames[4])
+         document.getElementById('mama').innerHTML= ( 'Your name is' + (femaleNames[4]))
+         
          
       }
      
       else if (sum == 5 && gen == "female") {
-         alert(femaleNames[5])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[5]))
+         
          
       }
      
       else if (sum == 6 && gen == "female") {
-         alert(femaleNames[6])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[6]))
+       
          
       }
 
       if(sum == 0 && gen == "male"){
-         alert(maleNames[0])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[0]))
+         
       }
       else if (sum == 1 && gen == "male") {
-         alert(maleNames[1])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[1]))
+         
          
       } 
       else if (sum == 2 && gen == "male") {
-         alert(maleNames[2])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (maleNames[2]))
+      
          
       } 
       else if (sum == 3 && gen == "male") {
-         alert(maleNames[3])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (maleNames[3]))
+
          
       } 
       else if (sum == 4 && gen == "male") {
-         alert(maleNames[4])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (maleNames[4]))
+         
          
       } 
       else if (sum == 5  && gen == "male") {
-         alert(maleNames[5])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (maleNames[5]))
+         
          
       } 
       else if (sum == 6 && gen == "male") {
-         alert(maleNames[6])
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (maleNames[6]))
+      
          
       } 
    }
