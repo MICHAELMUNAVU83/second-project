@@ -31,7 +31,7 @@ function woman(){
         let DD =parseInt( document.getElementById('day').value ) ;
         let olive =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
         let sum = Math.floor(olive) ;
-        alert(sum)
+        
 
         
         let maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
@@ -65,7 +65,7 @@ function woman(){
       }
      
       else if (sum == 4 && gen == "female") {
-         document.getElementById('mama').innerHTML= ( 'Your name is' + (femaleNames[3]))
+         document.getElementById('mama').innerHTML= ( 'Your name is ' + (femaleNames[3]))
          
          
       }
