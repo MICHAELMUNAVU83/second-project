@@ -19,6 +19,8 @@ function woman(){
 
 
 
+
+
     function mwaka(){
         
         let year = document.getElementById('year').value
@@ -27,8 +29,10 @@ function woman(){
         let YY = parseInt(  full.substring(2)) ;
         let MM =parseInt( document.getElementById('month').value ) ;
         let DD =parseInt( document.getElementById('day').value ) ;
-        let kim =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
-        let sum = Math.floor(kim);
+        let olive =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+        let sum = Math.floor(olive) ;
+
+        
         let maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
         let femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
         let weekdays = ['Sunday','Monday','Tuesday', 'Wednesday','Thursday', 'Friday', 'Saturday'];
@@ -38,6 +42,7 @@ function woman(){
 
 
         let gen = document.getElementById('resu').innerHTML;
+        
         if(sum ==  0 && gen== "female"){
            alert(femaleNames[0])
         }
@@ -46,16 +51,18 @@ function woman(){
            
         }
         else if (sum ==  2 && gen == "female") {
-         alert(femaleNames[2])
+           document.getElementById('mama').innerHTML= (femaleNames[2])
+
          
+       
       }
       else if (sum == 3 && gen == "female") {
-         alert(femaleNames[3])
+         alert( 'Your Akhan name is  ' + femaleNames[3])
          
       }
      
       else if (sum == 4 && gen == "female") {
-         alert(femaleNames[0])
+         alert(femaleNames[4])
          
       }
      
