@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,73 +8,95 @@
     <title>AKHAN NAMING WEBSITE</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <p class="fill">
-       <h3>  FILL THE FORM BELOW TO GET YOUR NAME </h3>
+    <h3> FILL THE FORM BELOW TO GET YOUR NAME </h3>
     </p>
+    <br>
+    <br>
+    <h4>BIRTHDAY DETAILS</h4>
 
-    
-        <form >
-            <p class="manu">
-                YEAR OF BIRTH :<input type="number" id="year" name="name" value="year"> 
-                <br>
-                <br>
-                <br>
+
+
+
+
+    <form>
+        <p class="manu">
+        YEAR OF BIRTH :<input type="number" id="year" name="name" value="year">
+        <br>
+        <br>
+        <br>
+
+
+        MONTH OF BIRTH:<input type="number" id="month" name="name" value="month" min="1" max="12" required>
+        <br>
+        <br>
+        <br>
+
+
+
+
+        DAY OF BIRTH:<input type="number" id="day" name="name" value="day" min="1" max="31">
+        <br>
+        <br>
+        <br>
+
+
+        </p>
+
+
+
+        <h4>
+            <ul>GENDER </ul>
+        </h4>
+
+        <p class="gend">
+
+            <input type="radio" name="gender" onclick="man()" id="male" value="male">male
+
+            <br><br>
+            <input type="radio" name="gender" id="female" onclick="woman()" value="female">female
+
+
+
+        </p>
+
+
+        <br>
+        <br>
+
+        <h4>CHECK THIS BOX TO GET YOUR AKHAN NAME</h4>
+        <p class="box">
+            <input onclick="mwaka()" class="btn" type="checkbox">"click me"
         
+            <br>
+    
+
+        </p>
+
+
         
-                MONTH OF BIRTH:<input type="number" id="month" name="name" value="month" min="1" max="12" required >
-                <br>
-                <br>
-                <br>
-                
+        <p class="once"><em>after entering your details and checking the box
+            <br>
+        you're gender and Akhan Name will appear below
+        </em></p>
+
+
         
-               
+
+           
+
         
-                DAY OF BIRTH:<input type="number" id="day"  name="name" value="day" min="1" max="31">
-                <br>
-                <br>
-                <br>
 
 
-            </p>
-    
-         
-    
-            <h6>    <ul>GENDER </ul> </h6>
-            
-    
-            <input type="radio" name="gender" onclick="man()"   id="male" value="male">male
-            <input type="radio"name="gender" id="female" onclick="woman()"   value="female">female
-              <br>
-              <br>
 
-              <h6>CHECK THIS BOX TO GET YOUR AKHAN NAME</h6>
+        <p id="resu" class="tr"></p>
+        <p id="mama" class="tr"></p>
 
 
-            <div>
 
-               <input  onclick="mwaka()" class="btn" type="checkbox">"click me" 
-               </div>
-               <br>
-               <br>
-               <br>
-
-               <div>
-    
-            <input type="reset">
-    
-
-             </div>
-    
-            
-    
-           <p id="resu"> gender</p>
-           <p id="mama"></p>
-            
-    
-    
-        </form>
-    
+    </form>
 
 
 
@@ -84,12 +107,14 @@
 
 
 
-    
 
 
-    
 
-  
+
+
+
+
     <script src="ps.js"></script>
 </body>
+
 </html>
