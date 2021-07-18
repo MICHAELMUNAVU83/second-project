@@ -1,9 +1,12 @@
 h3{
     text-align: center;
+    color:green;
 }
 .manu{
 
     text-align: center;
+    color:red;
+    opacity: 1.3px;
 }
 h6{
     
@@ -11,13 +14,16 @@ h6{
     
     
     text-align: center;
+    color:green;
     
 }
 .gend{
     text-align: center;
+    color: red;
 }
 h4{
     text-align: center;
+    color:green;
 }
 .box{
 
@@ -25,12 +31,17 @@ h4{
 }
 .tr{
     text-align: center;
+    color:black;
+    border-style: solid;
+    border-color:yellow;
 }
 .once{
     text-align: center;
+    color:black;
 }
 .add{
     text-align: center;
+    color:red;
 }
 .pic{
     float: left;
@@ -39,3 +50,14 @@ h4{
 
     float: right;
 }
+
+
+.ch{
+    color: red;
+}
+.lee{
+
+    text-align: center;
+    color: red;
+}
+
