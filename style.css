@@ -38,10 +38,13 @@ h4{
 
 .add{
     text-align: center;
-    color:red;
+    color:black;
 }
 .pic{
     float: left;
+}
+.hist{
+    text-align: center;
 }
 .ich{
 

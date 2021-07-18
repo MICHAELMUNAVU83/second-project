@@ -31,6 +31,16 @@ function woman(){
         let DD =parseInt( document.getElementById('day').value ) ;
         let olive =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
         let sum = Math.floor(olive) ;
+        if( MM == 0 || MM > 12){
+           alert(' refresh the page and enter correct birth month')
+        }else if (DD == 0 || DD > 31) {
+           alert(' refresh the page and  enter correct birth date')
+           
+        } else if ( CC == '') {
+           alert('enter correct year')}
+           
+      
+        
         
         
 
