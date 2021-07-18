@@ -4,49 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AKHAN NAMING WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <p class="fill">
+        FILL THE FORM BELOW TO GET YOUR NAME
+    </p>
+
+    <p class="formm">
+        <form >
+    
+            YEAR OF BIRTH :<input type="number" id="year" name="name" value="year"> 
+            <br>
+            <br>
+            <br>
+    
+    
+            MONTH OF BIRTH:<input type="number" id="month" name="name" value="month" min="1" max="12" required >
+            <br>
+            <br>
+            <br>
+            
+    
+           
+    
+            DAY OF BIRTH:<input type="number" id="day"  name="name" value="day" min="1" max="31">
+            <br>
+            <br>
+            <br>
+    
+    
+            <h6>GENDER</h6>
+            <div></div>
+    
+            <input type="radio" name="gender" onclick="man()"   id="male" value="male">male
+            <input type="radio"name="gender" id="female" onclick="woman()"   value="female">female
+    
+            <input onclick="mwaka()" class="btn" type="checkbox">another
+    
+            <input type="reset">
+    
+    
+           <p id="resu"> gender</p>
+           <p id="mama"></p>
+            
+    
+    
+        </form>
     
 
-    <form >
-
-        YEAR OF BIRTH <input type="number" id="year" name="name" value="year"> 
-        <br>
-        <br>
-        <br>
-
-
-        MONTH OF BIRTH <input type="number" id="month" name="name" value="month" min="1" max="12" required>
-        <br>
-        <br>
-        <br>
-        
-
-       
-
-        DAY OF BIRTH<input type="number" id="day"  name="name" value="day" min="1" max="31">
-        <br>
-        <br>
-        <br>
-
-
-        <h6>GENDER</h6>
-        <div></div>
-
-        <input type="radio" name="gender" onclick="man()"   id="male" value="male">male
-        <input type="radio"name="gender" id="female" onclick="woman()"   value="female">female
-
-        <input onclick="mwaka()" class="btn" type="checkbox">another
-
-        <input type="reset">
-
-
-       <p id="resu"> gender</p>
-       <p id="mama"></p>
-        
-
-      
 
 
 
@@ -56,16 +63,10 @@
 
 
 
+    </p>
 
 
-
-
-
-
-
-
-
-    </form>
+    
 
   
     <script src="ps.js"></script>
