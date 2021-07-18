@@ -26,13 +26,14 @@
         <h6>GENDER</h6>
         <div></div>
 
-        <input type="radio" name="gender"   id="male" value="male">male
-        <input type="radio"name="gender" id="female"   value="female">female
+        <input type="radio" name="gender" onclick="man()"   id="male" value="male">male
+        <input type="radio"name="gender" id="female" onclick="woman()"   value="female">female
 
-        <button type="submit" onclick="mwaka()"></button>
+        <input   onclick="mwaka()"  type="submit" class="btn">SUBMIT
+        <input class="text" id="result">
         
 
-      
+      <p id="result"></p>
 
 
 
