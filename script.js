@@ -39,7 +39,7 @@ function woman(){
            
         } else if ( dddd == 0) {
            alert('refresh the page and  enter correct date ')}
-           else if (year == 0) {
+           else if (year == 0000) {
               alert('refresh the page and enter correct ')
               
            } else {
