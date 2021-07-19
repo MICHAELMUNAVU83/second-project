@@ -32,9 +32,9 @@ function woman(){
         let olive =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
         let sum = Math.floor(olive) ;
         let dddd = document.getElementById('day').value
-        if( MM == 0 || MM > 12){
+        if( MM == 00|| MM > 12){
            alert(' refresh the page and enter correct birth month')
-        }else if (DD == 0 || DD > 31) {
+        }else if (DD == 00 || DD > 31) {
            alert(' refresh the page and  enter correct birth date')
            
         } else if ( dddd == 0) {
