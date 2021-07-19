@@ -36,13 +36,7 @@ function woman(){
            alert(' refresh the page and enter correct birth month')
         }else if (DD == 00 || DD > 31) {
            alert(' refresh the page and  enter correct birth date')
-           
-        } else if ( dddd == 0) {
-           alert('refresh the page and  enter correct date ')}
-           else if (year == 0) {
-              alert('refresh the page and enter correct ')
-              
-           }
+        
               
            
 
